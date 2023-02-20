@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "@ribeirogab/eslint-config/node"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.js"
+      ],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
+}
